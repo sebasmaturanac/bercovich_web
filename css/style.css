@@ -15443,7 +15443,7 @@ ul a.rsswidget {
   color: #fff; }
 
 [class*="icon-bx-"].bg-white a {
-  color: inherit; }
+  color: white; }
 
 [class*="icon-bx-"][class*="border-"] {
   display: table;
