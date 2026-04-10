@@ -1,34 +1,40 @@
 ﻿<!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    
+	
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
-	<meta name="robots" content="">
-	<meta name="description" content="Bercovich | Contacto, sucursales y atención para tu obra o reforma">
-	<meta property="og:title" content="Bercovich | Contacto, sucursales y atención para tu obra o reforma">
-	<meta property="og:description" content="Bercovich | Contacto, sucursales y atención para tu obra o reforma">
-	<meta property="og:image" content="https://archcode.dexignzone.com/xhtml/social-image.png">
+	<meta name="keywords" content="materiales de construcción, ferretería, baños, cocinas, pisos, revestimientos, aberturas, herramientas, hogar, ecommerce">
+	<meta name="author" content="BERCOVICH">
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="BERCOVICH | Materiales para la construcción, hogar y obra">
+	<meta property="og:title" content="BERCOVICH | Materiales para la construcción, hogar y obra">
+	<meta property="og:description" content="BERCOVICH | Materiales para la construcción, hogar y obra">
+	<meta property="og:image" content="https://www.bercovich.com.ar/">
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- Mobile Specific -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- Title -->
-	<title>Bercovich | Contacto</title>
+	<title>BERCOVICH | Materiales para la construcción, hogar y obra</title>
     
 	<!-- Favicon icon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
+    
+	<!-- Stylesheet -->
+    <link href="vendor/lightgallery/css/lightgallery.min.css" rel="stylesheet">
+	<link href="vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet">
+	<link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+	<link href="vendor/aos/aos.css" rel="stylesheet">
+	
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="../css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="../css2-1?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+	
 	<!-- Custom Stylesheet -->
-	<link href="vendor/lightgallery/css/lightgallery.min.css" rel="stylesheet">
-	<link href="vendor/aos/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    
 	<link rel="stylesheet" href="vendor/rangeslider/rangeslider.css">
     <link rel="stylesheet" href="vendor/switcher/switcher.css">
 	<link rel="stylesheet" class="skin" href="css/skin/skin-1.css">
@@ -81,9 +87,9 @@
 					<!-- Extra Nav -->
 					<div class="extra-nav">
 						<div class="extra-cell">
-							<a class="search-link" id="quik-search-btn" href="javascript:void(0);">
+							<!-- <a class="search-link" id="quik-search-btn" href="javascript:void(0);">
 								<i class="flaticon-loupe"></i>
-							</a>
+							</a> -->
 							<div class="extra-icon-box">
 								<a href="https://wa.me/543812106227" target="_blank">
 									<i class="fab fa-whatsapp"></i>
@@ -94,7 +100,7 @@
 								</h4>
 							</div>
 							<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn shadow-primary btn-primary login-btn btn-sm">
-								<span>Consultanos</span>
+								<span>Consultar</span>
 							</a>
 							<div class="menu-btn navicon">
 								<span></span>
@@ -117,7 +123,7 @@
 						</div>
 						<ul class="nav navbar-nav navbar navbar-left">	
 							<li><a href="index.html">Inicio</a></li>
-							<li><a href="empresa.html">Empresa</a></li>
+							<li class="active"><a href="empresa.html">Empresa</a></li>
 							<li><a href="sucursales.html">Sucursales</a></li>
 							<li class="sub-menu-down"><a href="javascript:void(0);">Categorías</a>
 								<ul class="sub-menu">
@@ -132,7 +138,7 @@
 								</ul>
 							</li>
 							 
-							<li class="active"><a href="contact-us.html">Contacto</a></li>
+							<li><a href="contact-us.html">Contacto</a></li>
 						</ul>
 						<div class="dz-social-icon">
 							<ul>
@@ -217,20 +223,20 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<i class="flaticon-email"></i>
-					<h5 class="modal-title" id="exampleModalLongTitle">Recibí novedades y promociones</h5>
+					<h5 class="modal-title" id="exampleModalLongTitle">Subscribe To Our Newsletter</h5>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">&times;</button>
 				</div>
 				<div class="modal-body">
 					<div class="dzSubscribeMsg"></div>
 					<form action="script/mailchamp.php" class="dzSubscribe" method="post">
 						<div class="form-group mb-3">
-							<input type="text" name="dzName" required="" class="form-control" placeholder="Tu nombre">
+							<input type="text" name="dzName" required="" class="form-control" placeholder="YOUR NAME">
 						</div>
 						<div class="form-group mb-3">
-							<input type="email" name="dzEmail" required="" class="form-control" placeholder="Tu correo electrónico">
+							<input type="email" name="dzEmail" required="" class="form-control" placeholder="YOUR EMAIL ADDRESS">
 						</div>
 						<div class="form-group text-center">
-							<button name="submit" type="submit" value="Submit" class="btn btn-primary">ENVIAR CONSULTA</button>
+							<button name="submit" type="submit" value="Submit" class="btn btn-primary">SUBSCRIBE NOW</button>
 						</div>
 					</form>
 				</div>
@@ -239,15 +245,16 @@
 	</div>
 	<div class="page-content bg-white">
 		<!-- Banner  -->
-		<div class="dz-bnr-inr style-1 overlay-white-dark" style="background-image: url(images/banner/bnr3.jpg);">
+		<div class="dz-bnr-inr style-1 overlay-white-dark" style="background-image: url(images/banner/bnr1.jpg);">
 			<div class="container">
 				<div class="dz-bnr-inr-entry">
-					<h1>CONTACTO</h1>
+					<h1>Bercovich Comercial S.A.S.</h1>
 					<!-- Breadcrumb Row -->
 					<nav aria-label="breadcrumb" class="breadcrumb-row">
 						<ul class="breadcrumb">
 							<li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-							<li class="breadcrumb-item">Contacto</li>
+							<li class="breadcrumb-item">Consultas</li>
+							<li class="breadcrumb-item">Medios de Pago</li>
 						</ul>
 					</nav>
 					<!-- Breadcrumb Row End -->
@@ -255,120 +262,190 @@
 			</div>
 		</div>
 		<!-- Banner End -->
-		<section class="content-inner">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-6 m-b30 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-						<div class="icon-bx-wraper style-8 bg-white" data-name="01">
-							<div class="icon-md m-r20">
-								<span class="icon-cell text-primary"><i class="flaticon-telephone"></i></span> 
-							</div>
-							<div class="icon-content">
-								<h4 class="tilte m-b10">Teléfonos</h4>
-								<p class="m-b0">
-									<a href="tel:+543812106227" style="color: inherit; text-decoration: none;">+54 (381) 2106227</a> <br>
-									<a href="tel:+543816213922" style="color: inherit; text-decoration: none;">+54 (381) 6213922</a>
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 m-b30 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-						<div class="icon-bx-wraper style-8 bg-white" data-name="02">
-							<div class="icon-md m-r20">
-								<span class="icon-cell text-primary"><i class="fab fa-whatsapp"></i></span> 
-							</div>
-							<div class="icon-content">
-								<h4 class="tilte m-b10">WhatsApp</h4>
-								<p class="m-b0">
-									<a href="https://wa.me/5493812106227?text=Hola%2C%20quiero%20hacer%20una%20consulta" target="_blank" style="color: inherit; text-decoration: none;">+54 (381) 2106227</a><br>
-									<a href="https://wa.me/5493816213922?text=Hola%2C%20quiero%20hacer%20una%20consulta" target="_blank" style="color: inherit; text-decoration: none;">+54 (381) 6213922</a>
-								</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-lg-4 col-md-6 m-b30 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
-						<div class="icon-bx-wraper style-8 bg-white" data-name="03">
-							<div class="icon-md m-r20">
-								<span class="icon-cell text-primary"><i class="flaticon-email"></i></span> 
-							</div>
-							<div class="icon-content">
-								<h4 class="tilte m-b10">Correos electrónicos</h4>
-								<p class="m-b0">
-									<a href="mailto:consulta@bercovich.com.ar" style="color: inherit; text-decoration: none;">consulta@bercovich.com.ar</a><br>
-									<a href="mailto:ventas@bercovich.com.ar" style="color: inherit; text-decoration: none;">ventas@bercovich.com.ar</a>
-								</p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-		<!-- Contact Form -->
-		<section class="content-inner-1 pt-0">
-			<div class="map-iframe">
-				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Z4Uq02GF1l7CHovV7d4PFASKKikBTPw&ehbc=2E312F" class="align-self-stretch radius-sm" style="border:0; width:100%; min-height:100%;" allowfullscreen=""></iframe>
-			</div>
-			<div class="container">
-				<div class="contact-area1 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
-					<div class="section-head style-1 text-center">
-						<h6 class="sub-title text-primary">Contacto Bercovich</h6>
-						<h2 class="title">Estamos para ayudarte con tu compra o consulta</h2>
-					</div>
-					<form class="dz-form style-1 dzForm" method="POST" action="script/contact_smtp.php">
-						<input type="hidden" class="form-control" name="dzToDo" value="Contact">
-						<div class="dzFormMsg"></div>							
-						<div class="row sp10">
-							<div class="col-sm-6 m-b20">
-								<div class="input-group">
-									<input type="text" class="form-control" name="dzFirstName" placeholder="Nombre" required="">
-								</div>
-							</div>
-							<div class="col-sm-6 m-b20">
-								<div class="input-group">
-									<input type="text" class="form-control" name="dzLastName" placeholder="Apellido" required="">
-								</div>
-							</div>
-							<div class="col-sm-6 m-b20">
-								<div class="input-group">
-									<input type="text" class="form-control" name="dzEmail" placeholder="Correo electrónico" required="">
-								</div>
-							</div>
-							<div class="col-sm-6 m-b20">
-								<div class="input-group">
-									<input type="text" class="form-control" name="dzPhoneNumber" placeholder="Teléfono" required="">
-								</div>
-							</div>
-							<div class="col-sm-12 m-b20">
-								<div class="input-group">
-									<input type="text" class="form-control" name="dzOther[subject]" placeholder="Asunto" required="">
-								</div>
-							</div>
-							<div class="col-sm-12 m-b20">
-								<div class="input-group">
-									<textarea name="dzMessage" class="form-control" placeholder="Contanos en qué producto, sucursal o tipo de obra necesitás ayuda"></textarea>
-								</div>
-							</div>
-							<div class="col-sm-12 m-b20">
-								<div class="input-group">
-									<div class="g-recaptcha" data-sitekey="6LefsVUUAAAAADBPsLZzsNnETChealv6PYGzv3ZN" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-									<input class="form-control d-none" style="display:none;" data-recaptcha="true" required="" data-error="Por favor completá el captcha">
-								</div>
-							</div>
-							<div class="col-sm-12 text-center">
-								<button name="submit" type="submit" value="submit" class="btn btn-primary btn-rounded">ENVIAR MENSAJE <i class="m-l10 fas fa-caret-right"></i></button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</section>
 		
+		<!-- About US -->
+		<section class="section-full content-inner-1 port-detail">
+	<div class="container">
+		<div class="row mb-lg-5">
+			<div class="col-lg-12 col-md-12 align-self-center aos-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+				<h2 class="dz-title">Medios de pago</h2>
+				<p>En Bercovich contamos con distintas opciones para que puedas concretar tu compra de la forma más conveniente. Podés consultar con nuestro equipo comercial y coordinar el medio de pago según el producto, la sucursal y la modalidad de atención.</p>
+				<p class="m-b30">Algunas operaciones pueden requerir validaciones adicionales por parte de la entidad emisora o del área administrativa. En caso de optar por transferencia bancaria, será necesario informar el pago para que podamos identificarlo y continuar con la gestión correspondiente.</p>
+
+				<div class="icon-bx-wraper style-7 left m-b30">
+					<div class="icon-bx-sm rounded-0 bg-primary">
+						<span class="icon-cell"><i class="fas fa-wallet"></i></span> 
+					</div>
+					<div class="icon-content">
+						<h4 class="title m-b5">Plataformas de pago</h4>
+						<p>Los pagos podrán realizarse por medio de Mercado Pago, PagoMisCuentas, Rapipago y Pago Fácil.</p>
+					</div>
+				</div>
+
+				<div class="icon-bx-wraper style-7 left m-b30">
+					<div class="icon-bx-sm rounded-0 bg-primary">
+						<span class="icon-cell"><i class="fas fa-credit-card"></i></span> 
+					</div>
+					<div class="icon-content">
+						<h4 class="title m-b5">Tarjetas de crédito y débito</h4>
+						<p>Los pagos podrán realizarse online con tarjetas de crédito y/o débito. La confirmación estará sujeta a la autorización del emisor y algunas operaciones pueden requerir verificación de datos.</p>
+					</div>
+				</div>
+
+				<div class="icon-bx-wraper style-7 left m-b30">
+					<div class="icon-bx-sm rounded-0 bg-primary">
+						<span class="icon-cell"><i class="fas fa-money-bill-wave"></i></span> 
+					</div>
+					<div class="icon-content">
+						<h4 class="title m-b5">Pago en efectivo</h4>
+						<p>Podrás abonar en efectivo descargando el cupón generado por la plataforma seleccionada y pagándolo en la sucursal más cercana a tu domicilio.</p>
+					</div>
+				</div>
+
+				<div class="icon-bx-wraper style-7 left m-b30">
+					<div class="icon-bx-sm rounded-0 bg-primary">
+						<span class="icon-cell"><i class="fas fa-university"></i></span> 
+					</div>
+					<div class="icon-content">
+						<h4 class="title m-b5">Transferencia bancaria</h4>
+						<p>También podés finalizar tu compra abonando mediante transferencia bancaria y luego informar el pago para su validación administrativa.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12 m-b30 aos-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+				<div class="icon-bx-wraper style-8 bg-white h-100" data-name="01">
+					<div class="icon-md m-r20">
+						<span class="icon-cell text-primary"><i class="fas fa-file-invoice-dollar"></i></span>
+					</div>
+					<div class="icon-content">
+						<h4 class="tilte m-b10">Datos para transferencia bancaria</h4>
+						<p class="m-b0">
+							<strong>Razón social:</strong> Bercovich Comercial SAS<br>
+							<strong>Banco:</strong> Macro S.A<br>
+							<strong>Tipo de cuenta:</strong> Cuenta Corriente<br>
+							<strong>Suc. Cuenta:</strong> 314009420723720<br>
+							<strong>CBU:</strong> 2850140230094207237201<br>
+							<strong>CUIT:</strong> 30-71690946-4<br>
+							<strong>ALIAS:</strong> ETICA.DEDAL.RAVIOL
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-6 col-md-12 m-b30 aos-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+				<div class="icon-bx-wraper style-8 bg-white h-100" data-name="02">
+					<div class="icon-md m-r20">
+						<span class="icon-cell text-primary"><i class="fas fa-envelope-open-text"></i></span>
+					</div>
+					<div class="icon-content">
+						<h4 class="tilte m-b10">Confirmación de pago</h4>
+						<p class="m-b0">
+							Una vez realizada la transferencia, deberás comunicarte con nuestro centro de Atención al Cliente o escribir a 
+							<a href="mailto:facturacion@bercovich.com.ar">facturacion@bercovich.com.ar</a> 
+							adjuntando el comprobante de pago generado por el banco (formatos aplicables *.pdf o *.jpg), junto al número de pedido y el CUIT con el que realizaste la transferencia.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-12 col-md-12 m-b30 aos-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+				<div class="icon-bx-wraper style-8 bg-white" data-name="03">
+					<div class="icon-md m-r20">
+						<span class="icon-cell text-primary"><i class="fas fa-clock"></i></span>
+					</div>
+					<div class="icon-content">
+						<h4 class="tilte m-b10">Importante</h4>
+						<p class="m-b0">
+							Tendrás <strong>48 horas</strong> para completar el proceso de compra. Luego de ese plazo, el pedido podrá ser anulado y el stock dejará de estar reservado.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		<!-- Our Portfolio -->
+		<section class="content-inner-1 bg-gray portfolio-area1" style="background-image:url(images/background/pattern3.png)">
+			<div class="container">
+				<div class="row align-items-center section-head-bx">
+					<div class="col-md-8">
+						<div class="section-head style-1">
+							<h6 class="text-primary sub-title">Líneas de Productos</h6>
+							<h2 class="title">Contamos con la mejor calidad para tu hogar</h2>
+						</div>
+					</div>
+					<div class="col-md-4 text-end">
+						<div class="portfolio-pagination d-inline-block mb-5">
+							<div class="btn-prev swiper-button-prev2"><i class="las la-arrow-left"></i></div>
+							<div class="btn-next swiper-button-next2"><i class="las la-arrow-right"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="swiper-container swiper-portfolio lightgallery aos-item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="dz-box overlay style-1">
+								<div class="dz-media">
+									<img src="images/work/pic-1.png" alt="">
+								</div>
+								<div class="dz-info">
+									<span data-exthumbimage="images/work/pic-1.png" data-src="images/work/pic-1.png" class="view-btn lightimg" title="INTERIOR DESIGN"></span>
+									<h6 class="sub-title">GRIFERIAS</h6>
+									<div class="port-info">
+										<div class="dz-meta">											
+										</div>
+										<h2 class="title m-b15"><a>Griferias de alta <span>Calidad</span></a></h2>
+									</div>
+								</div>
+							</div>
+						</div>	
+						<div class="swiper-slide">
+							<div class="dz-box overlay style-1">
+								<div class="dz-media">
+									<img src="images/work/pic-2.png" alt="">
+								</div>
+								<div class="dz-info">
+									<span data-exthumbimage="images/work/pic-2.png" data-src="images/work/pic-2.png" class="view-btn lightimg" title="ARCHITECTURAL"></span>
+									<h6 class="sub-title">SANITARIOS</h6>
+									<div class="port-info">
+										<div class="dz-meta">											
+										</div>
+										<h2 class="title m-b15"><a>Accesorios y Sanitarios <span>Para tu hogar</span></a></h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="dz-box overlay style-1">
+								<div class="dz-media">
+									<img src="images/work/pic-3.png" alt="">
+								</div>
+								<div class="dz-info">
+									<span data-exthumbimage="images/work/pic-3.png" data-src="images/work/pic-3.png" class="view-btn lightimg" title="INTERIOR DESIGN"></span>
+									<h6 class="sub-title">REVESTIMIENTOS</h6>
+									<div class="port-info">
+										<div class="dz-meta">											
+										</div>
+										<h2 class="title m-b15"><a>Pisos y revestimientos<span>Para tus espacios</span></a></h2>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>	
+			</div>	
+		</section>
+	</div>
+		
 	<!-- Footer -->
-    <footer class="site-footer style-1" id="footer" style="background-image:url(images/background/pattern3.png)">
+<footer class="site-footer style-1" id="footer" style="background-image:url(images/background/pattern3.png)">
 		<div class="footer-top">
             <div class="container">
 				<div class="row footer-logo-head spno">
@@ -498,15 +575,17 @@
         </div>
     </footer>
     <!-- Footer End -->
-	<button class="scroltop icon-up" type="button"><i class="fa fa-arrow-up"></i></button>
-</div>	
+	<button class="scroltop icon-up" type="button"><i class="fas fa-arrow-up"></i></button>
+</div>
 <!-- JAVASCRIPT FILES ========================================= -->
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script><!-- BOOTSTRAP.MIN JS -->
 <script src="vendor/switcher/switcher.js"></script><!-- SWITCHER -->
 <script src="vendor/rangeslider/rangeslider.js"></script><!-- RANGESLIDER -->
+<script src="vendor/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC-POPUP JS -->
 <script src="vendor/lightgallery/js/lightgallery-all.min.js"></script><!-- LIGHTGALLERY -->
-<script src='../recaptcha/api.js'></script> <!-- Google API For Recaptcha  -->
+<script src="vendor/swiper/swiper-bundle.min.js"></script><!-- OWL-CAROUSEL -->
+<script src="js/dz.carousel.js"></script><!-- OWL-CAROUSEL -->
 <script src="vendor/aos/aos.js"></script><!-- AOS -->
 <script src="js/dz.ajax.js"></script><!-- AJAX -->
 <script src="js/custom.min.js"></script><!-- CUSTOM JS -->
